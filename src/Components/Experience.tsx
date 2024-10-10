@@ -1,6 +1,6 @@
-// import { Text, Timeline, useMatches } from "@mantine/core";
-// import { IconBriefcaseFilled, IconGitBranch, IconGitCommit, IconGitPullRequest, IconMessageDots } from "@tabler/icons-react";
-// import { ExperienceInfo } from "../User";
+import { Text, Timeline, useMatches } from "@mantine/core";
+import { IconBriefcaseFilled, IconGitBranch, IconGitCommit, IconGitPullRequest, IconMessageDots } from "@tabler/icons-react";
+import { ExperienceInfo } from "../User";
 
 // const TimelineItem = (items: any) => {
 //     const size=useMatches({
@@ -32,7 +32,7 @@
 //     </Timeline.Item>)
 // }
 
-// const Experience = () => {
+ const Experience = () => {
 //     const size=useMatches({
 //         xs:15,
 //         md:20,
@@ -50,5 +50,5 @@
 //             <Timeline.Item bullet={<IconBriefcaseFilled className="!text-bgColor" size={size} />} ></Timeline.Item>
 //         </Timeline>
 //     </div>
-// }
-// export default Experience;
+ }
+export default Experience;
